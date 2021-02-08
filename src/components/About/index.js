@@ -8,9 +8,9 @@ function About(){
         <div>
         <div>
             <img className='ash-img' src= {ashImage} style= {{height:200, width: 200}}></img>
+            <br></br>
             
             <h4 style= {{textAlign: 'center'}}>About Me</h4>
-            <br></br>
             <p className='card-text'>
                 I am a Flight Attendant turned Web Developer. My passion lies in creating
                  accessible and user friendly websites through thoughtful design, 

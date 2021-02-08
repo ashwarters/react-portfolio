@@ -150,5 +150,28 @@ button {
 }
 
 .nav-item {
-    float: right;
+    margin-left: 20px;
+}
+
+.nav-item-resume {
+    margin-left: 20px;
+}
+
+.ash-img {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+#about {
+    text-align: center;
+}
+
+#root>div>main>div>div:nth-child(1)>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

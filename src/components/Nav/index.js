@@ -20,7 +20,7 @@ function Nav(props) {
                 onClick={() => props.setCurrentSection('Contact')}>Contact</a>
               </li>
               <li className="nav-item-resume" id='resume'>
-                <a href="https://drive.google.com/file/d/1sHyPFKwnIU1sjxzflTwZ_cWjPAcBiZ8c/view?usp=sharing">Resume</a>
+                <a href="#Resume" onClick= {() => props.setCurrentSection('Resume')}>Resume</a>
               </li>
             </ul>
           </div>
