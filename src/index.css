@@ -9,6 +9,7 @@ main {
     --light: #fafafa;
     --dark: #000000;
     --error: rgb(228, 46, 1);
+    background-color: #ffa9a9;
 }
 
 * {
@@ -171,6 +172,54 @@ button {
 }
 
 #root>div>main>div>div:nth-child(1)>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(2)>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(3)>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(1)>div>div>p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(1)>div>div>h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(2)>div>div>h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(2)>div>div>p>a>img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+#root>div>main>div>div:nth-child(3)>div>div>h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#root>div>main>div>div:nth-child(3)>div>div>p>a>img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
